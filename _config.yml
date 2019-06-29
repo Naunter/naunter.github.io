@@ -16,9 +16,11 @@
 title: 一个笔记本
 description: 一个用来保存和记录各种教程的笔记本
 # the subpath of your site, e.g. /blog
-baseurl: "/naunter.github.io/" 
+baseurl: "/" 
 # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://naunter.github.io"
+
+repository: "Naunter/naunter.github.io"
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
